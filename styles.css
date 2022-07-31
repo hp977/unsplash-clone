@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    margin: 0;
+    padding: 0 5px;
+    height: 30px;
+    width: 100;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_search {
+    border: hidden;
+    border-radius: 10px;
+    width: max-content;
+}
+#search {
+    all: unset;
+    padding: 3px 8px;
+}
+.fa-search {
+    padding-left: -10px;
+}
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+
+}
+li {
+    display: inline;
+}
+.sign {
+    border: none;
+    background: inherit;
+}
+.submit, input {
+    margin: 14px auto;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    border: hidden;
+}
+
+.main_page {
+    position: relative;
+}
+/* for hidden nav menu */
+.hidden_nav_menu {
+    position: absolute;
+    right: 20px;
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    background-color: aqua;
+    /* display: block; */
+
+    display: none;
+}
+
+.h_nav_title {
+    background-color: blueviolet;
+    height: 70%;
+    
+}
+
+.h_ul {
+    height: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.h_li {
+    padding-top: 10px;
+    width: 100%;
+    background-color: brown;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+.h_nav_button {
+    padding-top: 12px;
+    padding-bottom: 13px;
+    background-color: violet;
+    height: 30%;
+    text-align: center;
+}
+
+.h_nav_button input {
+    height: 1.5em;
+    margin: 10px;
+}
