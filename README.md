@@ -1,2 +1,4 @@
 # unsplash-clone
-test unsplash clone as practice project
+work on progress
+
+Need work on interactivity of nav bar
