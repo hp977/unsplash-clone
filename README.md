@@ -1,4 +1,4 @@
 # unsplash-clone
 work on progress
 
-Need work on interactivity of nav bar
+hide and unhide of nav bar not working as it should
